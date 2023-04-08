@@ -1,0 +1,33 @@
+{
+  "name": "system-regression-tests",
+  "version": "1.0.0",
+  "description": "Cypress e2e scheduling by using CRON job in Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":  "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmutalban/system-regression-tests.git"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress",
+    "automation",
+    "by",
+    "using",
+    "CRON",
+    "jenkins"
+  ],
+  "author": "mahmut alban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmutalban/system-regression-tests/issues"
+  },
+  "homepage": "https://github.com/mahmutalban/system-regression-tests#readme",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
