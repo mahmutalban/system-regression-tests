@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open":  "cypress open"
+    "cypress:open":  "cypress open",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/*.cy.js",
+    "cypress:runEdgeHeadless": "cypress run --headless --browser edge --spec cypress/e2e/*.cy.js",
+    "cypress:runFirefoxHeadless": "cypress run --headless --browser firefox --spec cypress/e2e/*.cy.js"
   },
   "repository": {
     "type": "git",
